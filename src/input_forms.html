@@ -2,7 +2,7 @@
     <body>
         <h1>Input Forms</h1>
         <form>
-            <table align="center" width="500" cellpadding="5">
+            <table align="center" width="500" cellpadding="5" border="2">
             <tr>
                 <td>Input type text</td>
                 <td><input type="text" name="name" size="50" maxlength="30"  value="aditi" placeholder="Enter your name"/> </td>
@@ -34,6 +34,58 @@
                 <td>Submit Button</td>
                 <td><input type="submit" name="submit"  value="submit" size="40"/></td>
 
+            </tr>
+
+
+            <tr>
+                <td>Input type image</td>
+                <td><input type="image" name="button" src="submit.jpg" /></td>
+            </tr>
+
+            <tr>
+                <td>Select box demo</td>
+                <td>
+                    <select name="Country" id="">
+                    <option value="">Choose your Country</option>
+                    <option value="Bharat">Bharat</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Canada">Canada</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Option Group</td>
+                <td>
+                    <select>
+                        <optgroup label="Healthy Juices">
+    <option value="orange">Orange Juice</option>
+    <option value="apple">Apple Juice</option>
+    <option value="mango">Mango Juice</option>
+  </optgroup>
+
+  <optgroup label="Energy Drinks">
+    <option value="milk">Milk</option>
+    <option value="bananaShake">Banana Shake</option>
+    <option value="proteinShake">Protein Shake</option>
+  </optgroup>
+
+  <optgroup label="Natural Drinks">
+    <option value="coconut">Coconut Water</option>
+    <option value="lemon">Lemon Water</option>
+    <option value="lassi">Lassi</option>
+  </optgroup>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Textarea</td>
+                <td><Textarea row="10" cols="10">indore ,ujjain</Textarea></td>
             </tr>
            </table>
         </form>
