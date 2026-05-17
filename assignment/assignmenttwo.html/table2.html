@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2 </title>
+
+    <style>
+  *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+     background: linear-gradient(to right, #dbeafe, #f0f9ff);
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:40px;
+    }
+
+    .container{
+      width:100%;
+      height: auto;
+      background:#fff;
+      box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    }
+
+        h1{       
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:25px;
+      height: 70px;
+      font-size:x-large;
+    
+        }
+
+        .label1{
+      display:block;
+      font-size:28px;
+      font-weight:bold;
+      color:#1e3a8a;
+      margin-bottom:10px;
+        }
+    input{
+      width:100%;
+      padding:15px;
+      border:2px solid #cbd5e1;
+      border-radius:10px;
+      font-size:22px;
+      outline:none;
+    }
+        button{
+      width:100%;
+      padding:18px;
+      border: none;
+      border-radius:12px;
+      background:linear-gradient(to right,#2563eb,#38bdf8);
+      color:white;
+      font-size:24px;
+      font-weight:bold;
+     
+    }
+      .content{
+      padding:35px;
+      }
+
+       .result{
+      margin-top:45px;
+      text-align:center;
+      background:#eff6ff;
+      padding:25px;
+      border-radius:15px;
+      flex-direction: column;
+    }
+    .box{
+         width:100%;
+      height: auto;
+     background: linear-gradient(to right, #dbeafe, #f0f9ff);
+      box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+    <div class="container">
+        <div>
+        <h1>Sample Online Items and Prices</h1>
+        </div>
+        <div class="content">
+        <div>
+          <label class="label1" for="">Laptop ($800 each):</label>
+          <input type="text"  value="0" style="display: flex;"/>
+          </div>
+
+           <div style="margin-top: 10px;">
+          <label class="label1" for="">Smartphone ($400 each):</label>
+          <input type="text"  value="0" style="display: flex;"/>
+          </div>
+           <div style="margin-top:10px;">
+          <label class="label1" for="">Headphone ($50 each):</label>
+          <input type="text"  value="0" style="display: flex;"/>
+          </div>
+           <div style="margin-top: 10px;">
+          <label class="label1" for="">Tablet ($300 each):</label>
+          <input type="text"  value="0" style="display: flex;"/>
+          </div>
+          
+          
+            <button style="margin-top: 20px;">Calculate Total Price </button>      
+          
+    </div>
+    </div>
+    <div class="result">
+        <h2>Total Price: <span class="price" id="total">$0</span></h2>
+      </div>
+   </div>
+</body>
+</html>
